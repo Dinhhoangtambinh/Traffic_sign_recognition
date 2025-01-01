@@ -18,16 +18,23 @@ A Python-based project for recognizing traffic signs in images. The system utili
 - **Deloyment**: I used Streamlit to quickly create a UI for this app, including an upload space and a slider to adjust the confidence level of the YOLO model.
 
 ## Install and run app
+1. Clone repo:
 ```
-1. git clone <URL of this repository>
-2. cd repo-name
-3. Download pretrained models of YOLO and CNN here [Traffic_sign_recognition_models](https://drive.google.com/drive/folders/1d3zNdvNpWjqcBXehFX9IUEtI2dRwOkaW?usp=sharing) and store in Models folder.
+git clone <URL of this repository>
+```
+2. Cd to the folder
+```
+cd Traffic_sign_recognition
+```
+3. Download and store these pretrained models on **Models** folder from here: [Traffic_sign_recognition_models](https://drive.google.com/drive/folders/1d3zNdvNpWjqcBXehFX9IUEtI2dRwOkaW?usp=sharing)
 4. Create a virtual venv
-  - python -m venv venv
-    - source venv/bin/activate #Linux/macOS
-    - venv\Scripts\activate #Windows
-  - pip install -r requirements.txt
+```
+- python -m venv venv
+  - source venv/bin/activate #Linux/macOS
+  - venv\Scripts\activate #Windows
+- pip install -r requirements.txt
+```
 5. Run app
-  - streamlit run main.py
-
+```
+streamlit run main.py
 ```
